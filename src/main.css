@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+}
+
+.item {
+	width: 150px;
+	height: 100px;
+	background-image: url("../images/car-150by100.jpg");
+}
+
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+	.item {
+		width: 300px;
+		height: 199px;
+		background-image: url("../images/car-300by199.jpg");
+	}
+}
+
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+	.item {
+		width: 640px;
+		height: 425px;
+		background-image: url("../images/car-640by425.jpg");
+	}
+}
