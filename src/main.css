@@ -3,23 +3,21 @@ body {
 }
 
 .item {
-	width: 150px;
-	height: 100px;
+	width: 300px;
+	height: 200px;
 	background-image: url("../images/car@1x.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 @media only screen and (-webkit-device-pixel-ratio: 2) {
 	.item {
-		width: 300px;
-		height: 199px;
 		background-image: url("../images/car@2x.jpg");
 	}
 }
 
 @media only screen and (-webkit-device-pixel-ratio: 3) {
 	.item {
-		width: 640px;
-		height: 425px;
 		background-image: url("../images/car@3x.jpg");
 	}
 }
