@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+}
+
+.item {
+	width: 300px;
+	height: 200px;
+	background-image: image-set(
+		url("../images/car-150by100.jpg") 1x,
+		url("../images/car-300by199.jpg") 2x,
+		url("../images/car-640by425.jpg") 3x
+	);
+	background-image: -webkit-image-set(
+		url("../images/car-150by100.jpg") 1x,
+		url("../images/car-300by199.jpg") 2x,
+		url("../images/car-640by425.jpg") 3x
+	);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
